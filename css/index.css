@@ -1024,6 +1024,15 @@ h5{
   .iteam_nav{
     margin-top: 200px;
   }
+  #menu_nav{
+    color:#a1a1a1;
+  }
+  #menu_nav-on{
+    color: black;
+  }
+  .mobile_nav-img{
+    display: none;
+  }
 }
 @media(min-width:1440px) and (max-width:1441px){
   .mobile_nav-img{
@@ -1031,5 +1040,14 @@ h5{
   }
   .iteam_nav{
     margin-top: 200px;
+  }
+  #menu_nav{
+    color:#a1a1a1;
+  }
+  #menu_nav-on{
+    color: black;
+  }
+  .mobile_nav-img{
+    display: none;
   }
 }
