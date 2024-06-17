@@ -19,8 +19,10 @@
     <div class="header-search">
       <input type="text" class="search-input" id="searchInput" placeholder="SEARCH...">
       <div class="dropdown" id="dropdown"></div>
+      <div class="img-container" id="img-search"></div>
     </div>
     <div class="item header">
+      <label for="nav_input-mobile"><span id="icons" class="material-icons">menu</span></label>
       <div class="header_img">
         <img src="img/logo_lavitta_105x.webp" alt="">
       </div>
@@ -28,7 +30,7 @@
         <lable class="material-icons">search</lable> &emsp;
       </label>
       <div  class="header_icons-mall">
-        <label for="nav_input-cart" class="material-icons">local_mall</label>
+        <label for="nav_input-cart" class="material-icons" id="local_mail">local_mall</label>
       </div>
       <input type="checkbox" name="" class="nav_input" id="nav_input-cart">
             <label for="nav_input-cart" class="overlay"></label>
@@ -52,12 +54,63 @@
           <li><a href="">LIÊN HỆ</a></li>
         </ul>
       </div>
+        
+        <input type="checkbox" name="" class="nav_input-container" id="nav_input-mobile">
+        <label for="nav_input-mobile" class="overlay"></label>
+        <div class="nav__mobile">
+          <label for="nav_input-mobile"><span id="close" class="material-icons">close</span></label>
+          <ul id="sub-menu_mobile">
+            <li> <a href="">GIỚI THIỆU</a></li>
+            <hr>
+            <li><a href="">BỘ SƯU TẬP</a></li>
+            <hr>
+            <li><a href="">MUA HÀNG</a></li>
+            <hr>
+            <li><a href="">NEW ARRIVAL</a></li>
+            <hr>
+            <li><a href="">BEST SELLER</a></li>
+            <hr>
+            <li><a href="">SALE UP TO 70% OFF - KHÔNG BÁN TẠI CỬA HÀNG(ĐẶT HÀNG FB-INSTA)</a></li>
+            <hr>
+            <li><a href="">VÁY DƯỚI 2 TRIỆU</a></li>
+            <hr>
+            <li><a href="">VÁY TỪ 2 ĐẾN 3 TRIỆU</a></li>
+            <hr>
+            <li><a href="">VÁY TỪ 3 ĐẾN 5 TRIỆU</a></li>
+            <hr>
+            <li><a href="">BLOOG</a></li>
+            <hr>
+            <li><a href="">LIÊN HỆ</a></li>
+            <hr>
+          </ul>
+          <div class="icon_mobile">
+            <span><i class="fa fa-facebook"></i></span>
+            <span style="padding-left: 20px;"><i class="fa fa-instagram"></i></span>
+          </div>
+        </div>
     </div>
-    <div class="item header1">WEDDING DAY</div>
+    <div class="item header1"><p>WEDDING DAY</p></div>
     <div class="item menu menu1 ">
       <div class="menu_icons ">
         <div id="menu_nav" class="material-icons ">grid_on</div>
+        <div id="icon-check" class="material-icons">check_box_outline_blank</div>
         <div class="material-icons icon ">grid_view</div>
+      </div>
+      <div class="sub_menu-mobile">
+        <ul class="sub_menu-list-mobile">
+          <li><a href="" class="sub_mobile-link">WEDDING DAY</a>
+          <ul class="nav_sub-menu">
+            <li>FILTERS</li>
+            <li><a href="">BEST SELLER</a></li>
+            <li><a href="">NEW ARRIVALS</a></li>
+            <li><a href="">SALE UP TP 70% OFF</a> </li>
+            <li><a href="">TỪ 2.000.000Đ - 3.000.000Đ</a></li>
+            <li><a href="">TỪ 3.000.000Đ - 5.000.000Đ</a></li>
+            <li><a href="">WEDDING DAY</a></li>
+          </ul>
+        </li>
+          
+        </ul>
       </div>
       <div class="menu_sort">
         <label for="sub_menu-input" class="menu_sort_1">Sort</label>
@@ -195,10 +248,10 @@
             </div>
           </div>
           <div class="col l-3">
-            <div class="iteam "></div>
+            <div class="iteam mobile_nav-img "></div>
           </div>
           <div class="col l-3">
-            <div class="iteam  "></div>
+            <div class="iteam mobile_nav-img "></div>
           </div>
         </div>
       </div>
