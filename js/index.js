@@ -2,6 +2,71 @@ const searchInput = document.getElementById('searchInput');
 const dropdown = document.getElementById('dropdown');
 
 
+const data = {
+  image: [
+    {
+      id: 1,
+      image:"img/anh1.webp",
+      name:"ĐC471" ,
+      price: "4.900.000 đ",
+    },
+    {
+      id: 2,
+      image:"img/anh3.webp",
+      name:"ĐC470" ,
+      price: "3.900.000 đ",
+    },
+    {
+      id: 3,
+      image:"img/anh5.webp",
+      name:"ĐC472" ,
+      price: "3.900.000 đ",
+    },
+    {
+      id: 4,
+      image:"img/anh7.webp",
+      name:"ĐC474" ,
+      price: "1.200.000 đ",
+    },
+    {
+      id: 5,
+      image:"img/anh9.webp",
+      name:"ĐC469" ,
+      price: "4.190.000 đ",
+    },
+    {
+      id: 6,
+      image:"img/anh11.webp",
+      name:"ĐC466" ,
+      price: "4.200.000 đ",
+    },
+    {
+      id: 7,
+      image:"img/anh13.webp",
+      name:"ĐC467" ,
+      price: "3.800.000 đ",
+    },
+    {
+      id: 8,
+      image:"img/anh16.webp",
+      name:"ĐC480" ,
+      price: "3.200.000 đ",
+    },
+    {
+      id: 9,
+      image:"img/anh19.webp",
+      name:"ĐC468" ,
+      price: "4.300.000 đ",
+    },
+    {
+      id: 10,
+      image:"img/anh21.webp",
+      name:"ĐC476" ,
+      price: "2.990.000 đ",
+    },
+  ]
+}
+
 // Lắng nghe sự kiện nhập vào ô tìm kiếm
 searchInput.addEventListener('input', function() {
 // Lấy giá trị tìm kiếm hiện tại
