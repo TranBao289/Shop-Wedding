@@ -135,6 +135,7 @@ justify-content: space-between;
   box-shadow: 0px 3px 2px rgba(8, 8, 8, 0.5);
   animation: searchSideIn linear 0.3s;
   display: none;
+  z-index: 900;
   
 }
 .search-input{
@@ -564,6 +565,9 @@ h5{
     left: 30%;
     position: absolute;
   }
+  .header-search{
+    z-index: 900;
+  }
   .header_icons{
     top: 85%;
     left: 69%;
@@ -593,7 +597,7 @@ h5{
     box-shadow: 0px 3px 2px rgba(8, 8, 8, 0.5);
     animation: searchSideIn linear 0.3s;
     display: none;
-    z-index: 1;
+    z-index: 900;
   }
   @keyframes searchSideIn {
     from{
@@ -821,6 +825,9 @@ h5{
     left: 35%;
     position: absolute;
   }
+  .header-search{
+    z-index: 900;
+  }
   .header_icons{
     top: 85%;
     left: 74%;
@@ -845,21 +852,21 @@ h5{
     height: 100px;
     left: 0;
     right: 0;
-    top: 11.5%;
+    top: 8%;
     position: fixed;
     box-shadow: 0px 3px 2px rgba(8, 8, 8, 0.5);
     animation: searchSideIn linear 0.3s;
     display: none;
-    z-index: 1;
+    z-index: 900;
   }
   @keyframes searchSideIn {
     from{
       opacity: 0;
-      top: 9%;
+      top: 5%;
     }
     to {
       opacity: 1;
-      top: 11.5%;
+      top: 8%;
       
     }
   }
@@ -1006,6 +1013,21 @@ h5{
   .mobile_nav-img{
     display: none;
   }
+  .header-search{
+    z-index: 900;
+    top: 16%;
+  }
+  @keyframes searchSideIn {
+    from{
+      opacity: 0;
+      top: 5%;
+    }
+    to {
+      opacity: 1;
+      top: 16%;
+      
+    }
+}
 }
 @media(min-width:2495px){
   .menu{
@@ -1016,6 +1038,21 @@ h5{
   }
   .iteam_nav{
     height: 2000px;
+  }
+  .header-search{
+    z-index: 900;
+    top: 9.5%;
+  }
+  @keyframes searchSideIn {
+    from{
+      opacity: 0;
+      top: 5%;
+    }
+    to {
+      opacity: 1;
+      top: 9.5%;
+      
+    }
   }
 }
 @media(min-width:1679px) and (max-width:1680px){
@@ -1034,6 +1071,21 @@ h5{
   .mobile_nav-img{
     display: none;
   }
+  .header-search{
+    z-index: 900;
+    top: 17.5%;
+  }
+  @keyframes searchSideIn {
+    from{
+      opacity: 0;
+      top: 9%;
+    }
+    to {
+      opacity: 1;
+      top: 17.5%;
+      
+    }
+  }
 }
 @media(min-width:1440px) and (max-width:1441px){
   .mobile_nav-img{
@@ -1050,5 +1102,8 @@ h5{
   }
   .mobile_nav-img{
     display: none;
+  }
+  .header-search{
+    z-index: 900;
   }
 }
