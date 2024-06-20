@@ -988,7 +988,7 @@ h5{
     font-size: 15px;
   }
 }
-@media (min-width:1023px) and (max-width:1024px){
+@media (min-width:1023px) and (max-width:1305px){
   .mobile_nav-img{
     display: none;
   }
@@ -1027,6 +1027,10 @@ h5{
       top: 16%;
       
     }
+}
+.menu{
+  position: sticky;
+    top: 210px;  
 }
 }
 @media(min-width:2495px){
